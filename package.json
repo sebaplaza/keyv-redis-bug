@@ -1,0 +1,19 @@
+{
+  "name": "keyv-redis-bug",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "REDIS_URL=redis://localhost:6380 node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@keyvhq/core": "^1.6.9",
+    "@keyvhq/redis": "^1.6.10",
+    "ioredis": "^4.28.5"
+  }
+}
